@@ -1,0 +1,12 @@
+/** @format */
+
+table,
+th,
+td {
+  border-style: ridge;
+  text-align: center;
+  background-color: rgb(226, 251, 255);
+}
+img {
+  width: 400px;
+}
