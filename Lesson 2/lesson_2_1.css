@@ -1,0 +1,44 @@
+/** @format */
+
+body {
+  background-color: rgb(55, 163, 50);
+}
+
+h2 {
+  color: pink;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+h4 {
+  color: plum;
+  font-family: "Mochiy Pop P One";
+}
+
+.purple {
+  background-color: purple;
+  width: 260px;
+}
+
+.boring {
+  border: 2px solid grey;
+  color: rgb(26, 34, 34);
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+.snazzy {
+  border: 3px dotted purple;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 2rem;
+  background-color: wheat;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.snazzy ul li {
+  list-style: square;
+}
+
+.align-center {
+  text-align: center;
+}
