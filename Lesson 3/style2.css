@@ -1,0 +1,45 @@
+/** @format */
+
+.title h1 {
+  padding: 64px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 64px 0 64px;
+  font-size: 0px;
+}
+.gallery img {
+  margin: 0.5rem;
+}
+@media only screen and (max-width: 700px) {
+  .gallery {
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+  }
+  .gallery img {
+    border-radius: 10px;
+  }
+  .title {
+    background-color: lightpink;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .gallery {
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    background-color: lawngreen;
+  }
+  .title h1 {
+    font-family: fantasy;
+    font-size: 18px;
+  }
+}

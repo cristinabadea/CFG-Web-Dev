@@ -1,0 +1,33 @@
+/** @format */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.input {
+  padding: 20px;
+}
+
+.input input {
+  border-radius: 20px;
+  width: 40rem;
+  height: 2rem;
+  border: 2px solid grey;
+}
+.btn button {
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 4px;
+}
+.img1 {
+  position: relative;
+  left: 2rem;
+}
+.img2 {
+  position: relative;
+  right: 2rem;
+}
